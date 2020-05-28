@@ -18,11 +18,11 @@ function greet(timearg){
   if(timearg<12){
     return "Good Morning";
   }
-  else if(timearg>=12 & timearg<=5){
+  else if(timearg>=12 & timearg<=17){
     return  "Good Afternoon";
     
   }
-  else if{
+  else {
     return "Good Evening";
   }
 
