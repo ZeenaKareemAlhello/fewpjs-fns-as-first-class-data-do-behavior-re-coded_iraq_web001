@@ -12,7 +12,9 @@ function handleClick(e) {
 let e
 function greet(timearg){
    e=timearg.split(':');
-  timearg= e.parseInt()
+   console.log(e)
+  timearg= parseInt(e)
+  console.log(timearg)
   if(timearg<12){
     return "Good Morning";
   }
