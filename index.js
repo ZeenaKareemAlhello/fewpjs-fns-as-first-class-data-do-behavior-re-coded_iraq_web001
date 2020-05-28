@@ -31,7 +31,7 @@ function greet(timearg){
 /* Write your implementation of displayMessage() */
 
 function displayMessage(time2){
- document. getElementById('greeting').innerHTML=`${time2}`;
+ document. getElementById('greeting').innerText=`${time2}`;
 }
 
 
