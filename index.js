@@ -22,7 +22,7 @@ function greet(timearg){
     return  "Good Afternoon";
     
   }
-  else{
+  else if{
     return "Good Evening";
   }
 
